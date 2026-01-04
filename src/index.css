@@ -1,0 +1,23 @@
+:root {
+  --primary: #8B4513; /* Brown */
+  --secondary: #FFF; /* White */
+  --accent: #FFC0CB; /* Pink */
+  --text: #333;
+  --bg: #F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 1200px;
+  margin:
