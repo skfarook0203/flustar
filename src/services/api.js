@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'https://your-render-backend-url.com/api'; // Replace with actual Render URL
+const API_BASE = 'https://flustar-backend.onrender.com'; // Replace with actual Render URL
 
 const api = axios.create({
   baseURL: API_BASE,
